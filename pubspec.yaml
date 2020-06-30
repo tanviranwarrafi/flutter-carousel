@@ -1,0 +1,31 @@
+name: carousel_flutter
+description: Image Carousel or an Image Slider For Ecommerce App In Flutter
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  carousel_pro: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/slider_images/slider_image_one.png
+    - assets/images/slider_images/slider_image_two.jpg
+    - assets/images/slider_images/slider_image_three.png
+    - assets/images/slider_images/slider_image_four.png
+
